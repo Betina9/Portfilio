@@ -1,9 +1,16 @@
 function App() {
   return (
-    <main className="flex min-h-screen items-center justify-center">
-      <h1 className="text-5xl font-bold">Min nye portfolio</h1>
-    </main>
+    <>
+      <Header />
+
+      <Hero />
+      <About />
+      <Projects />
+      <Experience />
+      <Skills />
+      <Contact />
+
+      <Footer />
+    </>
   );
 }
-
-export default App;
