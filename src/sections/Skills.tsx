@@ -1,5 +1,5 @@
 function Skills() {
-  return <section>Skills</section>;
+  return <section id="skills">Skills</section>;
   <h1>hei</h1>;
 }
 

@@ -1,5 +1,5 @@
 function Hero() {
-  return <section>Hero</section>;
+  return <section id="hero">Hero</section>;
 }
 
 export default Hero;
