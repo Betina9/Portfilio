@@ -19,9 +19,14 @@ function Experience() {
 
               <p>{experience.description}</p>
 
-              <div>
+              <div className="mt-4 flex flex-wrap gap-2">
                 {experience.technologies.map((technology) => (
-                  <span key={technology}>{technology}</span>
+                  <span
+                    key={technology}
+                    className="rounded-full bg-pink-100 px-3 py-1 text-sm text-pink-700"
+                  >
+                    {technology}
+                  </span>
                 ))}
               </div>
             </article>
