@@ -6,42 +6,52 @@ interface ProjectCardProps {
 
 function ProjectCard({ project }: ProjectCardProps) {
   return (
-    <article className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-      <h3 className="text-2xl font-bold text-slate-900">{project.title}</h3>
-
-      <p className="mt-3 text-slagte-600">{project.description}</p>
-
-      <div className="mt-6 felx flex-wrap gap-2">
-        {project.technologies.map((technology) => (
-          <span
-            key={technology}
-            className="rounded-full bg-pink-100 px-3 py-1 text-sm text-pink-700"
-          >
-            {technology}
-          </span>
-        ))}
+    <article className="flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white">
+      <div className="aspect-video overflow-hidden bg-slate-100">
+        <img
+          src={project.image}
+          alt=""
+          className="h-full w-full object-cover"
+        />
       </div>
 
-      <div className="mt-8 flex gap-4">
-        <a
-          href={project.githubUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="rounded-lg bg-slate-900 px-4 py-2 text-white"
-        >
-          Github
-        </a>
+      <div className="flex flex-1 flex-col p-6">
+        <h3 className="text-2xl font-bold text-slate-900">{project.title}</h3>
 
-        {project.liveUrl && (
+        <p className="mt-3 leading-7 text-slate-600">{project.description}</p>
+
+        <div className="mt-5 flex flex-wrap gap-2">
+          {project.technologies.map((technology) => (
+            <span
+              key={technology}
+              className="rounded-full bg-pink-50 px-3 py-1 text-sm font-medium text-pink-700"
+            >
+              {technology}
+            </span>
+          ))}
+        </div>
+
+        <div className="mt-auto flex flex-wrap gap-4 pt-8">
           <a
-            href={project.liveUrl}
+            href={project.githubUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-lg border border-slate-300 px-4 py-2"
+            className="font-medium text-slate-700 hover:text-pink-600"
           >
-            Live Demo
+            GitHub
           </a>
-        )}
+
+          {project.liveUrl && (
+            <a
+              href={project.liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-slate-700 hover:text-pink-600"
+            >
+              Live demo
+            </a>
+          )}
+        </div>
       </div>
     </article>
   );
