@@ -4,7 +4,7 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-slate-200 bg-white/90 backdrop-blur">
+    <header className="sticky top-0 z-50 w-full border-b border-slate-200/70 bg-white/85 backdrop-blur-md">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <a
           href="#hero"
@@ -15,30 +15,46 @@ function Header() {
 
         <ul className="hidden items-center gap-8 md:flex">
           <li>
-            <a href="#about" className="text-slate-700 hover:text-pink-600">
+            <a
+              href="#about"
+              className="text-sm font-medium text-slate-600 transition hover:text-pink-600"
+            >
               Om meg
             </a>
           </li>
+
           <li>
-            <a href="#projects" className="text-slate-700 hover:text-pink-600">
+            <a
+              href="#projects"
+              className="text-sm font-medium text-slate-600 transition hover:text-pink-600"
+            >
               Prosjekter
             </a>
           </li>
+
           <li>
             <a
               href="#experience"
-              className="text-slate-700 hover:text-pink-600"
+              className="text-sm font-medium text-slate-600 transition hover:text-pink-600"
             >
               Erfaring
             </a>
           </li>
+
           <li>
-            <a href="#skills" className="text-slate-700 hover:text-pink-600">
+            <a
+              href="#skills"
+              className="text-sm font-medium text-slate-600 transition hover:text-pink-600"
+            >
               Kompetanse
             </a>
           </li>
+
           <li>
-            <a href="#contact" className="text-slate-700 hover:text-pink-600">
+            <a
+              href="#contact"
+              className="text-sm font-medium text-slate-600 transition hover:text-pink-600"
+            >
               Kontakt
             </a>
           </li>
@@ -46,17 +62,17 @@ function Header() {
 
         <button
           type="button"
-          className="md:hidden"
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Åpne meny"
           aria-expanded={isOpen}
+          className="text-2xl text-slate-700 md:hidden"
         >
           ☰
         </button>
       </nav>
 
       {isOpen && (
-        <div className="border-t border-slate-200 bg-white px-6 py-4 md:hidden">
+        <div className="border-t border-slate-200 bg-white px-6 py-5 md:hidden">
           <ul className="flex flex-col gap-4">
             <li>
               <a href="#about" onClick={() => setIsOpen(false)}>
