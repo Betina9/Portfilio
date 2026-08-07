@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <section id="contact" className="bg-slate50 px-6 py-24">
+    <section id="contact" className="bg-slate-50 px-6 py-24">
       <div className="mx-auto max-w-7xl">
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-pink-600">
@@ -18,26 +18,26 @@ function Contact() {
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
-              href="mailto: betinao92@hotmail.com"
-              className="rounded-lg bg-pink-600 px-6 py-3 font-medium text-white transition hover:bg-pink-700"
+              href="mailto:din-epost@eksempel.no"
+              className="rounded-xl bg-pink-600 px-6 py-3 font-medium text-white transition hover:-translate-y-0.5 hover:bg-pink-700"
             >
               Send e-post
             </a>
 
             <a
-              href="https://www.linkedin.com/in/betina-olsen-9077ab306"
+              href="https://www.linkedin.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-lg border border-slate-300 px-6 py-3 font-medium text-slate-800 transition hover:bg-slate-100"
+              className="rounded-xl border border-slate-300 bg-white px-6 py-3 font-medium text-slate-700 transition hover:-translate-y-0.5 hover:border-pink-300 hover:text-pink-600"
             >
               LinkedIn
             </a>
 
             <a
-              href="https://github.com/Betina9?tab=overview&from=2026-07-01&to=2026-07-15"
+              href="https://github.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-lg border border-slate-300 px-6 py-3 font-medium text-slate-800 transition hover:bg-slate-100"
+              className="rounded-xl border border-slate-300 bg-white px-6 py-3 font-medium text-slate-700 transition hover:-translate-y-0.5 hover:border-pink-300 hover:text-pink-600"
             >
               GitHub
             </a>
