@@ -6,12 +6,12 @@ interface ProjectCardProps {
 
 function ProjectCard({ project }: ProjectCardProps) {
   return (
-    <article className="flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white">
+    <article className="group flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
       <div className="aspect-video overflow-hidden bg-slate-100">
         <img
           src={project.image}
           alt=""
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]"
         />
       </div>
 
@@ -36,7 +36,7 @@ function ProjectCard({ project }: ProjectCardProps) {
             href={project.githubUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="font-medium text-slate-700 hover:text-pink-600"
+            className="font-medium text-slate-700 transition hover:text-pink-600"
           >
             GitHub
           </a>
@@ -46,7 +46,7 @@ function ProjectCard({ project }: ProjectCardProps) {
               href={project.liveUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="font-medium text-slate-700 hover:text-pink-600"
+              className="font-medium text-slate-700 transition hover:text-pink-600"
             >
               Live demo
             </a>
