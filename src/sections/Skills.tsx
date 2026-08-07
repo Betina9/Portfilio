@@ -2,6 +2,7 @@ function Skills() {
   const skillGroups = [
     {
       title: "Frontend",
+      description: "Teknologier jeg bruker til å bygge moderne grensesnitt.",
       skills: [
         "React",
         "TypeScript",
@@ -14,10 +15,12 @@ function Skills() {
     },
     {
       title: "Verktøy",
+      description: "Verktøy jeg bruker i utviklingsprosessen.",
       skills: ["Git", "GitHub", "Gitea", "VS Code", "Figma", "Docker", "Vite"],
     },
     {
       title: "Arbeidsområder",
+      description: "Områder jeg er spesielt opptatt av i frontend-utvikling.",
       skills: ["REST API", "Responsive Design", "Accessibility", "UX/UI"],
     },
   ];
@@ -35,8 +38,8 @@ function Skills() {
           </h2>
 
           <p className="mt-4 text-lg leading-8 text-slate-600">
-            Teknologier og verktøy jeg har erfaring med gjennom prosjekter og
-            frontend-utvikling.
+            Teknologier, verktøy og arbeidsområder jeg har erfaring med gjennom
+            prosjekter og frontend-utvikling.
           </p>
         </div>
 
@@ -44,13 +47,17 @@ function Skills() {
           {skillGroups.map((group) => (
             <article
               key={group.title}
-              className="rounded-2xl border border-slate-200 bg-white p-6"
+              className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md"
             >
               <h3 className="text-xl font-bold text-slate-900">
                 {group.title}
               </h3>
 
-              <div className="mt-5 flex flex-wrap gap-2">
+              <p className="mt-2 text-sm leading-6 text-slate-500">
+                {group.description}
+              </p>
+
+              <div className="mt-6 flex flex-wrap gap-2">
                 {group.skills.map((skill) => (
                   <span
                     key={skill}
