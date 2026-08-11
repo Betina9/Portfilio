@@ -32,7 +32,7 @@ function Header() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <a
           href="#hero"
-          className="text-xl font-semibold tracking-tight text-slate-900 dark:text-white"
+          className="font-['Cormorant_Garamond'] text-3xl font-semibold tracking-tight text-slate-900 dark:text-white"
         >
           Betina Olsen
         </a>
@@ -42,45 +42,50 @@ function Header() {
             <li>
               <a
                 href="#about"
-                className="text-sm font-medium text-slate-600 transition hover:text-pink-600 dark:text-slate-300"
+                className="group relative inline-block text-sm font-medium text-slate-600 transition-colors duration-300 hover:text-pink-600 dark:text-slate-300 dark:hover:text-pink-400"
               >
                 Om meg
+                <span className="absolute -bottom-1 left-0 h-0.5 w-0 rounded-full bg-pink-600 transition-all duration-300 group-hover:w-full dark:bg-pink-400" />
               </a>
             </li>
 
             <li>
               <a
                 href="#projects"
-                className="text-sm font-medium text-slate-600 transition hover:text-pink-600 dark:text-slate-300"
+                className="group relative inline-block text-sm font-medium text-slate-600 transition-colors duration-300 hover:text-pink-600 dark:text-slate-300 dark:hover:text-pink-400"
               >
                 Prosjekter
+                <span className="absolute -bottom-1 left-0 h-0.5 w-0 rounded-full bg-pink-600 transition-all duration-300 group-hover:w-full dark:bg-pink-400" />
               </a>
             </li>
 
             <li>
               <a
                 href="#experience"
-                className="text-sm font-medium text-slate-600 transition hover:text-pink-600 dark:text-slate-300"
+                className="group relative inline-block text-sm font-medium text-slate-600 transition-colors duration-300 hover:text-pink-600 dark:text-slate-300 dark:hover:text-pink-400"
               >
                 Erfaring
+                <span className="absolute -bottom-1 left-0 h-0.5 w-0 rounded-full bg-pink-600 transition-all duration-300 group-hover:w-full dark:bg-pink-400" />
               </a>
             </li>
 
             <li>
               <a
                 href="#skills"
-                className="text-sm font-medium text-slate-600 transition hover:text-pink-600 dark:text-slate-300"
+                className="group relative inline-block text-sm font-medium text-slate-600 transition-colors duration-300 hover:text-pink-600 dark:text-slate-300 dark:hover:text-pink-400"
               >
                 Kompetanse
+                <span className="absolute -bottom-1 left-0 h-0.5 w-0 rounded-full bg-pink-600 transition-all duration-300 group-hover:w-full dark:bg-pink-400" />
               </a>
             </li>
 
             <li>
               <a
                 href="#contact"
-                className="text-sm font-medium text-slate-600 transition hover:text-pink-600 dark:text-slate-300"
+                className="group relative inline-block text-sm font-medium text-slate-600 transition-colors duration-300 hover:text-pink-600 dark:text-slate-300 dark:hover:text-pink-400"
               >
                 Kontakt
+                <span className="absolute -bottom-1 left-0 h-0.5 w-0 rounded-full bg-pink-600 transition-all duration-300 group-hover:w-full dark:bg-pink-400" />
               </a>
             </li>
           </ul>

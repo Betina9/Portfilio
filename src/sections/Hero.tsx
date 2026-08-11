@@ -1,11 +1,23 @@
 import profileImage from "../assets/Betinafacee.jpg";
+import cb2 from "../assets/cb2.png";
+import darkmode from "../assets/darkmode.png";
 
 function Hero() {
   return (
-    <section
-      id="hero"
-      className="relative overflow-hidden bg-gradient-to-b from-pink-50/70 to-white px-6 dark:from-slate-950 dark:to-slate-900"
-    >
+    <section id="hero" className="relative overflow-hidden px-6">
+      <div
+        className="absolute inset-0 bg-cover bg-top bg-no-repeat dark:hidden"
+        style={{
+          backgroundImage: `url(${cb2})`,
+        }}
+      />
+
+      <div
+        className="absolute inset-0 hidden bg-cover bg-top bg-no-repeat dark:block"
+        style={{
+          backgroundImage: `url(${darkmode})`,
+        }}
+      />
       <div className="mx-auto grid min-h-[calc(100vh-73px)] max-w-7xl items-center gap-14 py-20 md:grid-cols-2">
         <div className="relative z-10">
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-pink-600 dark:text-pink-400">
