@@ -1,18 +1,18 @@
 function About() {
   return (
-    <section id="about" className="bg-slate-50 px-6 py-24">
+    <section id="about" className="bg-slate-50 px-6 py-24 dark:bg-slate-900">
       <div className="mx-auto grid max-w-7xl gap-12 md:grid-cols-2">
         <div>
-          <p className="text-sm font-semibold uppercase tracking-widest text-pink-600">
+          <p className="text-sm font-semibold uppercase tracking-widest text-pink-600 dark:text-pink-400">
             Om meg
           </p>
 
-          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 dark:text-white md:text-4xl">
             Jeg liker å bygge løsninger som føles enkle å bruke
           </h2>
         </div>
 
-        <div className="space-y-5 text-lg leading-8 text-slate-600">
+        <div className="space-y-5 text-lg leading-8 text-slate-600 dark:text-slate-300">
           <p>
             Jeg er frontend-utvikler med erfaring innen React, TypeScript og
             moderne webutvikling.
