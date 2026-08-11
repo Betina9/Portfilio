@@ -32,13 +32,13 @@ function Header() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <a
           href="#hero"
-          className="font-['Cormorant_Garamond'] text-3xl font-semibold tracking-tight text-slate-900 dark:text-white"
+          className="font-['Cormorant_Garamond'] text-2xl font-semibold italic text-slate-900 dark:text-white"
         >
           Betina Olsen
         </a>
 
         <div className="hidden items-center gap-8 md:flex">
-          <ul className="flex items-center gap-8">
+          <ul className="flex items-center gap-14">
             <li>
               <a
                 href="#about"
@@ -93,7 +93,7 @@ function Header() {
           <button
             type="button"
             onClick={toggleTheme}
-            className="rounded-lg border border-slate-200 px-3 py-2 text-sm dark:border-slate-700"
+            className="rounded-lg border border-slate-200 px-3 py-2 text-sm dark:border-slate-700 cursor-pointer"
             aria-label="Bytt fargetema"
           >
             {isDark ? "☀️" : "🌙"}
