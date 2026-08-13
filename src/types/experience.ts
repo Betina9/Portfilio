@@ -4,5 +4,5 @@ export interface Experience {
   role: string;
   period: string;
   description: string;
-  technologies: string[];
+  technologies?: string[];
 }
