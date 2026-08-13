@@ -13,12 +13,14 @@ function Experience() {
           </p>
 
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 dark:text-white md:text-4xl">
-            Erfaring og praksis
+            Erfaring fra både utvikling og arbeidslivet
           </h2>
 
           <p className="mt-4 text-lg leading-8 text-slate-600 dark:text-slate-300">
-            Frontend-utvikling med fokus på React, TypeScript, brukeropplevelse
-            og responsive løsninger.
+            Jeg er tidlig i utviklerkarrieren, men har med meg flere års
+            erfaring fra arbeidslivet. Her er noe av erfaringen som har formet
+            både hvordan jeg jobber og hvordan jeg har utviklet meg som
+            frontend-utvikler.
           </p>
         </div>
 

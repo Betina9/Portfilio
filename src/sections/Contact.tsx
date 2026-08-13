@@ -12,20 +12,21 @@ function Contact() {
           </h2>
 
           <p className="mt-4 text-lg leading-8 text-slate-600 dark:text-slate-300">
-            Har du lyst til å vite mer om meg eller prosjektene mine, er du
-            velkommen til å ta kontakt.
+            Jeg er på utkikk etter nye muligheter innen frontend-utvikling. Har
+            du lyst til å vite mer om meg eller det jeg har jobbet med, tar jeg
+            gjerne en prat.
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
-              href="mailto:din-epost@eksempel.no"
+              href="mailto:betinao92@hotmail.com"
               className="rounded-xl bg-pink-600 px-6 py-3 font-medium text-white transition hover:-translate-y-0.5 hover:bg-pink-700 dark:bg-pink-500 dark:hover:bg-pink-400"
             >
               Send e-post
             </a>
 
             <a
-              href="https://www.linkedin.com/"
+              href="www.linkedin.com/in/betina-olsen-9077ab306"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-xl border border-slate-300 bg-white px-6 py-3 font-medium text-slate-700 transition hover:-translate-y-0.5 hover:border-pink-300 hover:text-pink-600 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-200 dark:hover:border-pink-400 dark:hover:text-pink-400"
@@ -34,7 +35,7 @@ function Contact() {
             </a>
 
             <a
-              href="https://github.com/"
+              href="https://github.com/Betina9?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-xl border border-slate-300 bg-white px-6 py-3 font-medium text-slate-700 transition hover:-translate-y-0.5 hover:border-pink-300 hover:text-pink-600 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-200 dark:hover:border-pink-400 dark:hover:text-pink-400"

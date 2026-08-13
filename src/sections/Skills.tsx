@@ -1,15 +1,15 @@
 const skillGroups = [
   {
     title: "Frontend",
-    skills: ["HTML", "JavaScript", "React", "TypeScript"],
+    skills: ["HTML", "CSS", "JavaScript", "React", "TypeScript"],
   },
   {
     title: "Styling & design",
-    skills: ["Tailwind CSS", "CSS", "Material UI", "Figma"],
+    skills: ["Tailwind CSS", "Material UI", "Figma"],
   },
   {
     title: "Verktøy & integrasjoner",
-    skills: ["Git", "GitHub", "Gitea", "VS Code", "Docker", "Vite", "REST API"],
+    skills: ["Git", "GitHub", "Gitea", "VS Code", "Vite", "Docker", "REST API"],
   },
 ];
 
@@ -27,7 +27,8 @@ function Skills() {
           </h2>
 
           <p className="mt-4 text-lg leading-8 text-slate-600 dark:text-slate-300">
-            Teknologier og verktøy jeg har jobbet med i prosjektene mine.
+            Teknologier og verktøy jeg har erfaring med fra prosjekter og
+            praksis.
           </p>
         </div>
 
