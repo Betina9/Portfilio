@@ -14,18 +14,23 @@ function About() {
 
         <div className="space-y-5 text-lg leading-8 text-slate-600 dark:text-slate-300">
           <p>
-            Jeg er frontend-utvikler med erfaring innen React, TypeScript og
-            moderne webutvikling.
+            Jeg er en nysgjerrig og detaljorientert frontend-utvikler som liker
+            å forstå både hvordan en løsning fungerer og hvordan den oppleves
+            for brukeren.
           </p>
 
           <p>
-            Jeg er spesielt opptatt av brukeropplevelse, tilgjengelighet og
-            responsive løsninger som fungerer godt på både mobil og desktop.
+            Jeg trives godt med å jobbe selvstendig og kan bli veldig fokusert
+            når jeg først setter meg inn i noe. Samtidig liker jeg å diskutere
+            løsninger med andre, få nye perspektiver og lære av mennesker med
+            mer erfaring enn meg.
           </p>
 
           <p>
-            I prosjektene mine liker jeg å kombinere teknisk struktur med et
-            tydelig og gjennomtenkt visuelt uttrykk.
+            Det jeg liker aller best med frontend er kombinasjonen av kode,
+            design og problemløsning. Jeg synes det er ekstra givende når jeg
+            kan ta noe som virker komplisert og gjøre det enklere og mer
+            naturlig å bruke.
           </p>
         </div>
       </div>
