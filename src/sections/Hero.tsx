@@ -29,13 +29,15 @@ function Hero() {
           </h1>
 
           <h2 className="mt-5 max-w-xl text-2xl font-medium leading-tight text-slate-700 dark:text-slate-200 md:text-3xl">
-            Jeg bygger intuitive og gjennomtenkte digitale opplevelser.
+            Jeg bygger intuitive og tilgjengelige løsninger med brukeren i
+            fokus.
           </h2>
 
           <p className="mt-6 max-w-xl text-lg leading-8 text-slate-600 dark:text-slate-400">
-            Jeg jobber med React, TypeScript og moderne frontend-utvikling, med
-            særlig fokus på brukeropplevelse, tilgjengelighet og responsive
-            løsninger.
+            Jeg jobber hovedsakelig med React og TypeScript, og liker spesielt
+            kombinasjonen av utvikling og UX. Jeg er detaljorientert og opptatt
+            av å finne gode løsninger både teknisk og for den som faktisk skal
+            bruke dem.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
