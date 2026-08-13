@@ -1,51 +1,62 @@
-function Contact() {
+const skillGroups = [
+  {
+    title: "Frontend",
+    skills: ["HTML", "JavaScript", "React", "TypeScript"],
+  },
+  {
+    title: "Styling & design",
+    skills: ["Tailwind CSS", "CSS", "Material UI", "Figma"],
+  },
+  {
+    title: "Verktøy & integrasjoner",
+    skills: ["Git", "GitHub", "Gitea", "VS Code", "Docker", "Vite", "REST API"],
+  },
+];
+
+function Skills() {
   return (
-    <section id="contact" className="bg-slate-50 px-6 py-24 dark:bg-slate-900">
+    <section id="skills" className="bg-white px-6 py-20 dark:bg-slate-950">
       <div className="mx-auto max-w-7xl">
-        <div className="mx-auto max-w-2xl text-center">
+        <div className="max-w-2xl">
           <p className="text-sm font-semibold uppercase tracking-widest text-pink-600 dark:text-pink-400">
-            Kontakt
+            Kompetanse
           </p>
 
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 dark:text-white md:text-4xl">
-            Ta gjerne kontakt
+            Teknologier og verktøy
           </h2>
 
           <p className="mt-4 text-lg leading-8 text-slate-600 dark:text-slate-300">
-            Har du lyst til å vite mer om meg eller prosjektene mine, er du
-            velkommen til å ta kontakt.
+            Teknologier og verktøy jeg har jobbet med i prosjektene mine.
           </p>
+        </div>
 
-          <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <a
-              href="mailto:din-epost@eksempel.no"
-              className="rounded-xl bg-pink-600 px-6 py-3 font-medium text-white transition hover:-translate-y-0.5 hover:bg-pink-700 dark:bg-pink-500 dark:hover:bg-pink-400"
+        <div className="mt-12 grid gap-6 md:grid-cols-3">
+          {skillGroups.map((group) => (
+            <div
+              key={group.title}
+              className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900"
             >
-              Send e-post
-            </a>
+              <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
+                {group.title}
+              </h3>
 
-            <a
-              href="https://www.linkedin.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-xl border border-slate-300 bg-white px-6 py-3 font-medium text-slate-700 transition hover:-translate-y-0.5 hover:border-pink-300 hover:text-pink-600 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-200 dark:hover:border-pink-400 dark:hover:text-pink-400"
-            >
-              LinkedIn
-            </a>
-
-            <a
-              href="https://github.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-xl border border-slate-300 bg-white px-6 py-3 font-medium text-slate-700 transition hover:-translate-y-0.5 hover:border-pink-300 hover:text-pink-600 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-200 dark:hover:border-pink-400 dark:hover:text-pink-400"
-            >
-              GitHub
-            </a>
-          </div>
+              <div className="mt-5 flex flex-wrap gap-2">
+                {group.skills.map((skill) => (
+                  <span
+                    key={skill}
+                    className="rounded-full bg-pink-50 px-3 py-1 text-sm font-medium text-pink-700 dark:bg-pink-950/40 dark:text-pink-300"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>
   );
 }
 
-export default Contact;
+export default Skills;

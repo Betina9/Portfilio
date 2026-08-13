@@ -7,7 +7,7 @@ export const projects: Project[] = [
     description: "Et adminverktøy for å bygge innloggingsportaler.",
     technologies: ["React", "TypeScript", "Tailwind CSS"],
     githubUrl: "https://github.com/...",
-    liveUrl: "",
+    liveUrl: "DIN_LIVE_URL_HER",
     image: "/images/portal.png",
   },
 
