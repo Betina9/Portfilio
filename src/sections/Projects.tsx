@@ -1,4 +1,4 @@
-import { projects } from "../data/projects";
+import { projects, funProjects } from "../data/projects";
 import ProjectCard from "../components/ProjectCard";
 
 function Projects() {
@@ -20,10 +20,35 @@ function Projects() {
           </p>
         </div>
 
-        <div className="mt-14 grid items-stretch gap-8 md:grid-cols-2">
+        {/* Hovedprosjekter */}
+        <div className="mt-14 grid items-stretch gap-6 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
+        </div>
+
+        {/* Morsomme prosjekter */}
+        <div className="mt-24">
+          <div className="max-w-2xl">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-pink-600 dark:text-pink-400">
+              Sideprosjekter
+            </p>
+
+            <h3 className="mt-3 text-2xl font-bold tracking-tight text-slate-900 dark:text-white md:text-3xl">
+              Litt for gøy
+            </h3>
+
+            <p className="mt-3 text-lg leading-8 text-slate-600 dark:text-slate-300">
+              Små prosjekter, eksperimenter og ting jeg har laget fordi jeg
+              hadde lyst.
+            </p>
+          </div>
+
+          <div className="mt-10 grid items-stretch gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {funProjects.map((project) => (
+              <ProjectCard key={project.id} project={project} />
+            ))}
+          </div>
         </div>
       </div>
     </section>

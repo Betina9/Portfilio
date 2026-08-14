@@ -39,3 +39,38 @@ export const projects: Project[] = [
     image: PasswordImage,
   },
 ];
+
+export const funProjects: Project[] = [
+  {
+    id: 3,
+    title: "Password maker",
+    description:
+      "Password maker er en egen side som lager et sikkert og unikt passord til deg for å sikre din/ dine profiler.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    githubUrl: "https://github.com/Betina9/Craftsvilla",
+    liveUrl: "https://betina9.github.io/PasswordMaker/",
+    image: PasswordImage,
+  },
+
+  {
+    id: 3,
+    title: "Password maker",
+    description:
+      "Password maker er en egen side som lager et sikkert og unikt passord til deg for å sikre din/ dine profiler.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    githubUrl: "https://github.com/Betina9/Craftsvilla",
+    liveUrl: "https://betina9.github.io/PasswordMaker/",
+    image: PasswordImage,
+  },
+
+  {
+    id: 3,
+    title: "Password maker",
+    description:
+      "Password maker er en egen side som lager et sikkert og unikt passord til deg for å sikre din/ dine profiler.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    githubUrl: "https://github.com/Betina9/Craftsvilla",
+    liveUrl: "https://betina9.github.io/PasswordMaker/",
+    image: PasswordImage,
+  },
+];
