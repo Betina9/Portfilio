@@ -38,32 +38,4 @@ export const experiences = {
       technologies: [],
     },
   ],
-
-  previousWork: [
-    {
-      id: 4,
-      role: "Butikkmedarbeider",
-      company: "",
-      period: "2025",
-      description: "Kundeservice og butikkarbeid.",
-      technologies: [],
-    },
-    {
-      id: 5,
-      role: "Barne- og ungdomsarbeider",
-      company: "",
-      period: "2015 – 2021",
-      description:
-        "Flere års arbeidserfaring fra faste stillinger og vikariater innen barnehage.",
-      technologies: [],
-    },
-    {
-      id: 6,
-      role: "Barnehageassistent / lærling",
-      company: "",
-      period: "Tidligere erfaring",
-      description: "",
-      technologies: [],
-    },
-  ],
 };

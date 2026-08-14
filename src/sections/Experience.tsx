@@ -9,7 +9,7 @@ type ExperienceItem = {
   technologies: string[];
 };
 
-function ExperienceList({ items }: { items: ExperienceItem[] }) {
+export function ExperienceList({ items }: { items: ExperienceItem[] }) {
   return (
     <div className="relative mt-8 border-l border-slate-200 pl-8 dark:border-slate-700">
       {items.map((experience) => (
@@ -96,20 +96,6 @@ function Experience() {
           </p>
 
           <ExperienceList items={experiences.education} />
-        </div>
-
-        <div className="mt-16">
-          <p className="text-sm font-semibold uppercase tracking-widest text-pink-600 dark:text-pink-400">
-            Tidligere arbeidserfaring
-          </p>
-
-          <ExperienceList items={experiences.previousWork} />
-
-          <p className="mt-6 max-w-3xl leading-7 text-slate-600 dark:text-slate-300">
-            Denne erfaringen har gitt meg mye innen samarbeid, kommunikasjon,
-            ansvar og det å møte forskjellige mennesker – noe jeg også tar med
-            meg videre i arbeidet som utvikler.
-          </p>
         </div>
       </div>
     </section>

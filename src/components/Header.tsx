@@ -61,16 +61,6 @@ function Header() {
 
             <li>
               <a
-                href="#experience"
-                className="group relative inline-block text-[13px] font-medium tracking-wide text-slate-600 transition-colors duration-300 hover:text-pink-600 dark:text-slate-300 dark:hover:text-pink-400"
-              >
-                Erfaring
-                <span className="absolute -bottom-1 left-0 h-0.5 w-0 rounded-full bg-pink-600 transition-all duration-300 group-hover:w-full dark:bg-pink-400" />
-              </a>
-            </li>
-
-            <li>
-              <a
                 href="#skills"
                 className="group relative inline-block text-[13px] font-medium tracking-wide text-slate-600 transition-colors duration-300 hover:text-pink-600 dark:text-slate-300 dark:hover:text-pink-400"
               >
