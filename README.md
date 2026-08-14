@@ -73,3 +73,9 @@ export default defineConfig([
 ])
 
 ```
+## Tech stack
+
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
