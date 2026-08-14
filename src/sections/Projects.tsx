@@ -3,7 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 
 function Projects() {
   return (
-    <section id="projects" className="bg-white px-6 py-28 dark:bg-slate-950">
+    <section id="projects" className="bg-slate-50 px-6 py-28 dark:bg-slate-900">
       <div className="mx-auto max-w-7xl">
         <div className="max-w-3xl">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-pink-600 dark:text-pink-400">
