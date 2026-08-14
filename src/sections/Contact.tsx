@@ -26,7 +26,7 @@ function Contact() {
             </a>
 
             <a
-              href="www.linkedin.com/in/betina-olsen-9077ab306"
+              href="https://www.linkedin.com/in/betina-olsen-9077ab306"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-xl border border-slate-300 bg-white px-6 py-3 font-medium text-slate-700 transition hover:-translate-y-0.5 hover:border-pink-300 hover:text-pink-600 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-200 dark:hover:border-pink-400 dark:hover:text-pink-400"

@@ -2,6 +2,9 @@ import type { Project } from "../types/projects";
 import EaserconImage from "../assets/Easercon.png";
 import CraftsvillaImage from "../assets/Craftsvilla.png";
 import PasswordImage from "../assets/password.png";
+import KuleKattefaktaImage from "../assets/kattefakta.png";
+import CookieImage from "../assets/Cookie.png";
+import SteinSaksPapirImage from "../assets/stein_saks_papir.png";
 
 export const projects: Project[] = [
   {
@@ -34,7 +37,7 @@ export const projects: Project[] = [
     description:
       "Password maker er en egen side som lager et sikkert og unikt passord til deg for å sikre din/ dine profiler.",
     technologies: ["HTML", "CSS", "JavaScript"],
-    githubUrl: "https://github.com/Betina9/Craftsvilla",
+    githubUrl: "https://github.com/Betina9/PasswordMaker.git",
     liveUrl: "https://betina9.github.io/PasswordMaker/",
     image: PasswordImage,
   },
@@ -42,35 +45,36 @@ export const projects: Project[] = [
 
 export const funProjects: Project[] = [
   {
-    id: 3,
-    title: "Password maker",
+    id: 4,
+    title: "Kule kattefakta",
     description:
-      "Password maker er en egen side som lager et sikkert og unikt passord til deg for å sikre din/ dine profiler.",
+      "Når du trykker på en ny kul kattefakta vil katten lage et kattemjau. Et prosjekt som bruker et API for å hente data.",
     technologies: ["HTML", "CSS", "JavaScript"],
-    githubUrl: "https://github.com/Betina9/Craftsvilla",
-    liveUrl: "https://betina9.github.io/PasswordMaker/",
-    image: PasswordImage,
+    githubUrl:
+      "https://github.com/Betina9/Javascript-Advanced-Oppgave-3-API-oppgave.git",
+    liveUrl:
+      "https://betina9.github.io/Javascript-Advanced-Oppgave-3-API-oppgave/",
+    image: KuleKattefaktaImage,
   },
 
   {
-    id: 3,
-    title: "Password maker",
+    id: 5,
+    title: "Cookie consent",
     description:
-      "Password maker er en egen side som lager et sikkert og unikt passord til deg for å sikre din/ dine profiler.",
+      "En shop med en cookie consent som tuller med å selge informasjonen din videre",
     technologies: ["HTML", "CSS", "JavaScript"],
-    githubUrl: "https://github.com/Betina9/Craftsvilla",
-    liveUrl: "https://betina9.github.io/PasswordMaker/",
-    image: PasswordImage,
+    githubUrl: "https://github.com/Betina9/cookie-consent.git",
+    liveUrl: "https://betina9.github.io/cookie-consent/",
+    image: CookieImage,
   },
 
   {
-    id: 3,
-    title: "Password maker",
-    description:
-      "Password maker er en egen side som lager et sikkert og unikt passord til deg for å sikre din/ dine profiler.",
+    id: 6,
+    title: "Stein, Saks, Papir",
+    description: "Lek Stein, saks eller papir mot datamaskinen.",
     technologies: ["HTML", "CSS", "JavaScript"],
-    githubUrl: "https://github.com/Betina9/Craftsvilla",
-    liveUrl: "https://betina9.github.io/PasswordMaker/",
-    image: PasswordImage,
+    githubUrl: "https://github.com/Betina9/Stein_Saks_Papir.git",
+    liveUrl: "https://betina9.github.io/Stein_Saks_Papir/",
+    image: SteinSaksPapirImage,
   },
 ];

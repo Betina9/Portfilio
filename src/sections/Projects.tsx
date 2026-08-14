@@ -35,12 +35,12 @@ function Projects() {
             </p>
 
             <h3 className="mt-3 text-2xl font-bold tracking-tight text-slate-900 dark:text-white md:text-3xl">
-              Litt for gøy
+              Morsomme prosjekter
             </h3>
 
             <p className="mt-3 text-lg leading-8 text-slate-600 dark:text-slate-300">
-              Små prosjekter, eksperimenter og ting jeg har laget fordi jeg
-              hadde lyst.
+              Noen av de litt mer lekne innleveringsprosjektene jeg har laget
+              underveis
             </p>
           </div>
 
