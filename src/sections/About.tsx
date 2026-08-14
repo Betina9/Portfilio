@@ -40,12 +40,12 @@ function About() {
           </div>
         </div>
 
-        <div className="mt-20 pt-14">
-          <h3 className="mt-3 text-2xl font-bold tracking-tight text-slate-900 dark:text-white md:text-3xl">
+        <div className="mt-14">
+          <h3 className="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">
             Erfaring og utdanning
           </h3>
 
-          <p className="mt-4 max-w-2xl text-lg leading-8 text-slate-600 dark:text-slate-300">
+          <p className="mt-3 max-w-2xl text-lg leading-8 text-slate-600 dark:text-slate-300">
             Jeg er tidlig i utviklerkarrieren, men har med meg erfaring fra både
             praksis, utdanning og arbeidslivet.
           </p>

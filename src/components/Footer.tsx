@@ -7,13 +7,6 @@ function Footer() {
         <p className="text-sm text-slate-500 dark:text-slate-400">
           © {currentYear} Betina Olsen
         </p>
-
-        <a
-          href="#hero"
-          className="text-sm font-medium text-slate-600 transition-colors hover:text-pink-600 dark:text-slate-300 dark:hover:text-pink-400"
-        >
-          Til toppen ↑
-        </a>
       </div>
     </footer>
   );
