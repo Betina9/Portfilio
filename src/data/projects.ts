@@ -1,6 +1,6 @@
 import type { Project } from "../types/projects";
 import EaserconImage from "../assets/Easercon.png";
-import CraftsvillaImage from "../assets/Craftsvilla.png";
+import skjerOsloImage from "../assets/skjeroslo.png";
 import PasswordImage from "../assets/password.png";
 import KuleKattefaktaImage from "../assets/kattefakta.png";
 import CookieImage from "../assets/Cookie.png";
@@ -22,13 +22,13 @@ export const projects: Project[] = [
 
   {
     id: 2,
-    title: "Craftsvilla",
+    title: "SkjerOslo",
     description:
-      "Craftsvilla er en nettside for en virksomhet som fokuserer på kreativitet, samhold og avslapning for personer i alle aldre. I dette prosjektet har det hvert fokus på front- end.",
-    technologies: ["HTML", "CSS"],
-    githubUrl: "https://github.com/Betina9/Craftsvilla",
-    liveUrl: "https://betina9.github.io/Craftsvilla/index.html",
-    image: CraftsvillaImage,
+      "SkjerOslo er en event-app laget i React og TypeScript for å gjøre det enkelt å finne ting som skjer i Oslo. Brukeren kan søke og filtrere arrangementer, se detaljer og lagre favoritter i Mine planer. Prosjektet har fokus på UX, universell utforming og responsivt design.",
+    technologies: ["React", "Typescript", "TailwindCSS"],
+    githubUrl: "https://github.com/Betina9/skjer-oslo.git",
+    liveUrl: "https://betina9.github.io/skjer-oslo/",
+    image: skjerOsloImage,
   },
 
   {
